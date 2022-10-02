@@ -51,3 +51,12 @@ bool isTwinPrime(int n){
   }
   return false;
 }
+
+int nextTwinPrime(int n){
+  for(int x=n;x>=n;x++){
+    if(x>n&&isTwinPrime(x)){
+      return x;
+    }
+  }
+  return n;
+}

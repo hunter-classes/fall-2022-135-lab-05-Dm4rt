@@ -36,3 +36,12 @@ TEST_CASE("isTwinPrime"){
   CHECK(isTwinPrime(23)==false);
   CHECK(isTwinPrime(2)==false);
 }
+
+TEST_CASE("nextTwinPrime"){
+  CHECK(nextTwinPrime(29)==31);
+  CHECK(nextTwinPrime(23)==29);
+  CHECK(nextTwinPrime(-31)==3);
+  CHECK(nextTwinPrime(0)==3);
+  CHECK(nextTwinPrime(1)==3);
+  CHECK(nextTwinPrime(2)==3);
+}

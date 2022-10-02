@@ -11,5 +11,6 @@ int main()
   std::cout<<"nextPrime(14):"<<nextPrime(14)<<std::endl;
   std::cout<<"countPrimes(0,12):"<<countPrimes(0,12)<<std::endl;
   std::cout<<"isTwinPrime(11):"<<isTwinPrime(11)<<std::endl;
+  std::cout<<"nextTwinPrime(23):"<<nextTwinPrime(23)<<std::endl;
   return 0;
 }

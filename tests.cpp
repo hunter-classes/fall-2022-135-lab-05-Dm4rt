@@ -29,3 +29,10 @@ TEST_CASE("countPrimes"){
   CHECK(countPrimes(0,1)==0);
   CHECK(countPrimes(0,2)==1);
 }
+
+TEST_CASE("isTwinPrime"){
+  CHECK(isTwinPrime(11)==true);
+  CHECK(isTwinPrime(31)==true);
+  CHECK(isTwinPrime(23)==false);
+  CHECK(isTwinPrime(2)==false);
+}

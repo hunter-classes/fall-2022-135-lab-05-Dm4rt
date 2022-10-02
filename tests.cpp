@@ -45,3 +45,9 @@ TEST_CASE("nextTwinPrime"){
   CHECK(nextTwinPrime(1)==3);
   CHECK(nextTwinPrime(2)==3);
 }
+
+TEST_CASE("largestTwinPrime"){
+  CHECK(largestTwinPrime(5,18)==17);
+  CHECK(largestTwinPrime(1,31)==31);
+  CHECK(largestTwinPrime(14,16)==-1);
+}

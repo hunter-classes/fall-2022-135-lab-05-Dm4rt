@@ -60,3 +60,13 @@ int nextTwinPrime(int n){
   }
   return n;
 }
+
+int largestTwinPrime(int a,int b){
+  int largest=-1;
+  for(int x=a;x<=b;x++){
+    if(isPrime(x)){
+      largest=x;
+    }
+  }
+  return largest;
+}

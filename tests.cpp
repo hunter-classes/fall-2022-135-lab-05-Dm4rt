@@ -15,3 +15,11 @@ TEST_CASE("isPrime"){
   CHECK(isPrime(0)==false);
   CHECK(isPrime(1)==false);
 }
+
+TEST_CASE("nextPrime"){
+  CHECK(nextPrime(14)==17);
+  CHECK(nextPrime(17)==19);
+  CHECK(nextPrime(0)==2);
+  CHECK(nextPrime(1)==2);
+  CHECK(nextPrime(-5)==2);
+}

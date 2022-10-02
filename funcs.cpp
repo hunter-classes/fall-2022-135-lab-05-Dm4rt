@@ -25,3 +25,12 @@ bool isPrime(int n){
     return true;
   }
 }
+
+int nextPrime(int n){
+  for(int x=n;x>=n;x++){
+    if(x>n&&isPrime(x)){
+      return x;
+    }
+  }
+  return n;
+}

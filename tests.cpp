@@ -23,3 +23,9 @@ TEST_CASE("nextPrime"){
   CHECK(nextPrime(1)==2);
   CHECK(nextPrime(-5)==2);
 }
+
+TEST_CASE("countPrimes"){
+  CHECK(countPrimes(0,12)==5);
+  CHECK(countPrimes(0,1)==0);
+  CHECK(countPrimes(0,2)==1);
+}
